@@ -5,7 +5,7 @@ Todos os comandos de operação com a API são executados via Shell Node.js
 ## Execução Local
 No diretório ./Tocomdorondevou_API
 ```
-cd ./cd Tocomdorondevou_API
+cd Tocomdorondevou_API
 
 node ace serve --watch
 ```
