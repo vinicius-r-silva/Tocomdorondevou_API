@@ -19,9 +19,13 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
-
+// Rotas Unidades
 Route.post('/unidadeDetalhes', 'UnidadesController.unidadeDetalhes')
 Route.post('/unidadesProximasRef', 'UnidadesController.unidadesProximasRef')
+// Rotas Formulario
+Route.post('/registraResposta', 'FormulariosController.registraResposta')
+Route.get('/formulariosTodos', 'FormulariosController.formulariosTodos')
+
 Route.get('/', () => {
   return 'Hello world'
 })
